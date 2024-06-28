@@ -1,0 +1,322 @@
+@font-face {
+    font-family: "Honey";
+    src: url("fonts/HoneyScript-Light.ttf");
+}
+
+.logo {
+    height: 200px;
+    background-image: url("resources/5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.title1 {
+    font-family: "Honey";
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.body {
+    background-image: url("resources/8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(6px);
+}
+
+.il {
+    height: 70px;
+}
+
+.lable1 {
+    margin-left: 36px;
+}
+
+.hb1 {
+    background-color: rgba(4, 27, 71, 0.753);
+}
+
+.category {
+    height: 550px;
+    overflow: auto;
+}
+
+.product {
+    height: 600px;
+    overflow: auto;
+}
+
+.mpb2 {
+    background-color: rgba(4, 27, 71, 0.753);
+}
+
+.mpd1 {
+    background-color: cornflowerblue;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.pemail {
+    color: rgb(2, 2, 56);
+}
+
+.mbb {
+    background-image: url("resources/images\ \(3\).jfif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* position: fixed; */
+}
+
+.mpn1 {
+    background-color: cornflowerblue;
+}
+
+.lbl1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pm1 {
+    height: 65px;
+    background-image: url("resources/paymentmethodimages/paypal_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm2 {
+    height: 65px;
+    background-image: url("resources/paymentmethodimages/visa_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm3 {
+    height: 65px;
+    background-image: url("resources/paymentmethodimages/mastercard_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm4 {
+    height: 65px;
+    background-image: url("resources/paymentmethodimages/american_express_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cart-icon {
+    height: 25px;
+    background-image: url("resources/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.cnabox {
+    position: relative;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .8);
+    border-radius: 8px;
+}
+
+
+/* 
+section {
+    padding: 0 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+} */
+
+.title02 {
+    font-size: 20px;
+    color: rgba(255, 0, 180, 1);
+}
+
+.pbox {
+    transition: 0.8s;
+}
+
+.pbox:hover {
+    transform: scale(1.18);
+    box-shadow: 2px 2px 2px cornflowerblue;
+    z-index: 2;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .social_icon {
+    position: relative;
+    margin: 10px 0;
+    z-index: 150;
+}
+
+footer .social_icon li {
+    list-style: none;
+}
+
+
+/* 
+footer .social_icon li a{
+    font-size: ;
+} */
+
+footer .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(resources/wave.png);
+    background-size: 1000px 100px;
+}
+
+footer .wave#wave1 {
+    z-index: 100;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+}
+
+footer .wave#wave2 {
+    z-index: 99;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 4s linear infinite;
+}
+
+footer .wave#wave3 {
+    z-index: 100;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
+}
+
+footer .wave#wave4 {
+    z-index: 99;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave_02 3s linear infinite;
+}
+
+@keyframes animateWave {
+    0% {
+        background-position-x: 1000px;
+    }
+    100% {
+        background-position-x: 0px;
+    }
+}
+
+@keyframes animateWave_02 {
+    0% {
+        background-position-x: 1000px;
+    }
+    100% {
+        background-position-x: 0px;
+    }
+}
+
+.boxshd {
+    transition: 0.8s;
+}
+
+.boxshd:hover {
+    transform: scale(1.18);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+.boxshd1 {
+    transition: 1s;
+}
+
+.boxshd1:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+.box1 {
+    /* width: 500px; */
+    height: 540px;
+    background-color: rgb(197, 224, 248);
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 60px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3586ff;
+}
+
+.btn1 {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(63, 63, 250);
+    color: white;
+    font-size: 22px;
+    font-family: "Quicksand";
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+}
+
+.sp {
+    font-family: "Quicksand";
+    font-size: 26px;
+}
+
+.in {
+    font-family: "Quicksand";
+    font-size: 26px;
+    width: 99%;
+    margin-top: 5px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
